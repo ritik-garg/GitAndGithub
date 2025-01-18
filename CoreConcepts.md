@@ -30,3 +30,21 @@ git add .
 ```
 git commit -m "<commitMessage>"
 ```
+<br>
+
+To add a multiline commit message, we can use the above command without the `-m` tag to open an editor:
+```
+git commit
+```
+
+## View All Commits
+To view all commits, use this command:
+```
+git log
+```
+<br>
+
+The above command prints a lot of information. I found this command more useful than the above one as it only prints commit id and commit message for all commits.
+```
+git log --oneline
+```
