@@ -7,17 +7,6 @@
 - Wide adoption for version control
 
 # Git Basics
-## Initialisation
-To create a new repository in local, use the following command:
-```
-git init <repositoryName>
-```
-<br>
-
-If you are already in a folder, use this command to create a git repositry:
-```
-git init
-```
 
 ## Check Status
 This command returns the current state of the tracked files by git:
